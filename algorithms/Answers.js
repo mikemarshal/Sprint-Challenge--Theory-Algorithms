@@ -15,12 +15,7 @@ if (x > log(i)) {
 }
 
 c)
-// O( 8+8+log(sqrt(n)) * 8+log(sqrt(n)) * log(sqrt(n)) )
-^ this is not the answer, at start:
-i = 0;
-sqrt(0) = 0, 0 / 2 = 0 ...
-0 is not less than 0, so the first iteration never starts
-O(0)
+O( 8+8+0.5*sqrt(n) * 8+0.5*sqrt(n) * 0.5*sqrt(n) )
 
 d)
 O( n * log(n) )
@@ -35,3 +30,16 @@ g)
 O(n)
 
 EXERCISE II:
+
+a)
+
+
+b)
+Knapsack algo
+
+ECERCISE III:
+
+a)
+O(n^2) - worst case scenario since it goes through entire array for every element
+b)
+O(nlog(n)) - average runtime
