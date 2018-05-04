@@ -1,14 +1,14 @@
 // Regex
 
-// Antelopes
+ Antelopes:
  /(antelopes?)/g;
 
- // Goat / Moat
+ Goat / Moat:
  /(g|m)(oat)/g;
 
- // Dates
+ Dates:
  /\d+-\d{2}-\d{2}$/gm;
 
- [State Machine 1](https://github.com/mikemarshal/Sprint-Challenge--Theory-Algorithms/blob/master/theory/Reg.png)
+ ![State Machine 1](https://github.com/mikemarshal/Sprint-Challenge--Theory-Algorithms/blob/master/theory/Reg.png)
 
- [State Machine 2](https://github.com/mikemarshal/Sprint-Challenge--Theory-Algorithms/blob/master/theory/Lion.png)
+ ![State Machine 2](https://github.com/mikemarshal/Sprint-Challenge--Theory-Algorithms/blob/master/theory/Lion.png)
