@@ -32,7 +32,16 @@ O(n)
 EXERCISE II:
 
 a)
-
+let minval = a[0];
+let maxval = a[0];
+for (let i = 1; i < a.length; i++) {
+  if (a[i] > maxval) {
+    maxval = a[i];
+  } else if (a[i] < minval) {
+    minval = a[i];
+  }
+}
+return maxval - minval;
 
 b)
 Knapsack algo
