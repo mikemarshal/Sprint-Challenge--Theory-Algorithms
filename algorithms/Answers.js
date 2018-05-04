@@ -15,13 +15,13 @@ if (x > log(i)) {
 }
 
 c)
-O( 8+8+0.5*sqrt(n) * 8+0.5*sqrt(n) * 0.5*sqrt(n) )
+O( 8 * 8 * 0.5*sqrt(n) )
 
 d)
 O( n * log(n) )
 
 e)
-O((n-3+(n-2+10))*(n-2)*(n-1)*n)  AKA O(n^4)
+O(n * 1/2 n * 1/4 n * 9)  AKA O(n^4)
 
 f)
 O(n)
